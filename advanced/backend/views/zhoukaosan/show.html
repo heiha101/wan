@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div align="center">
+	<h1>考试</h1>
+	<form action="?r=zhoukaosan/show_do" method="post">
+		<table>
+					<input type="hidden" name="dan_id" value="1">
+			<tr>
+				<th>单选1：</th>
+				<td>1+2=?</td>
+			</tr>
+			<tr>
+				<th>选项：</th>
+				<td>A：1</td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>B：2</td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>C：3</td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>D：4</td>
+			</tr>
+			<tr>
+				<th>请输入正确答案：</th>
+				<td><input type="text" name="danzheng"></td>
+			</tr>
+				</table>
+		<br>
+		<table>
+					<input type="hidden" name="duo_id" value="1">
+			<tr>
+				<th>多选1：</th>
+				<td>以下是偶数的是？</td>
+			</tr>
+			<tr>
+				<th>选项：</th>
+				<td>A：1</td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>B：2</td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>C：3</td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>D：4</td>
+			</tr>
+			<tr>
+				<th>请输入正确答案：</th>
+				<td><input type="text" name="duozheng"></td>
+			</tr>
+				</table>
+		<br>
+		<table>
+					<input type="hidden" name="pan_id" value="1">
+			<tr>
+				<th>判断1：</th>
+				<td>6是偶数吗？</td>
+			</tr>
+			<tr>
+				<th>选项：</th>
+				<td>
+					<input type="radio" name="daan" value="dui">对
+					<input type="radio" name="daan" value="cuo">错
+				</td>
+			</tr>
+				</table>
+		<br>
+		<table>
+			<tr>
+				<th></th>
+				<td><input type="submit" value="提交试卷"></td>
+			</tr>
+		</table>
+		</form>
+	</div>
+</body>
+</html>
